@@ -1,5 +1,4 @@
 Django>=5.0,<5.1
-gunicorn
 python-decouple
 psycopg[binary]
 dj-database-url
@@ -9,3 +8,7 @@ django-allauth[socialaccount]
 django-allauth-ui
 django-widget-tweaks
 stripe
+gunicorn==23.0.0
+python-decouple==3.8
+
+pgunicorn
